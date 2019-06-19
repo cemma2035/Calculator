@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+           <div class="calculator-grid row col-4 px-0">
+                <div class="output">
+                    <div data-previous-operand class="col-12 mt-3 previous-operand text-right">
+                        <span class=""></span>
+                    </div>
+                    <div data-current-operand class="col-12 current-operand text-right">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="keyboard row mx-0">
+                    <button data-all-clear class="btn btn-default col-6">AC</button>
+                    <button data-delete class="btn btn-default col-3">DEL</button>
+                    <button data-operation class="btn btn-default col-3">/</button>
+                    <button data-number class="btn btn-default col-3">1</button>
+                    <button data-number class="btn btn-default col-3">2</button>
+                    <button data-number class="btn btn-default col-3">3</button>
+                    <button data-operation class="btn btn-default col-3">*</button>
+                    <button data-number class="btn btn-default col-3">4</button>
+                    <button data-number class="btn btn-default col-3">5</button>
+                    <button data-number class="btn btn-default col-3">6</button>
+                    <button data-operation class="btn btn-default col-3">+</button>
+                    <button data-number class="btn btn-default col-3">7</button>
+                    <button data-number class="btn btn-default col-3">8</button>
+                    <button data-number class="btn btn-default col-3">9</button>
+                    <button data-operation class="btn btn-default col-3">-</button>
+                    <button data-number class="btn btn-default col-3">.</button>
+                    <button data-number class="btn btn-default col-3">0</button>
+                    <button data-equals class="btn btn-default col-6">=</button>
+                </div>
+           </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
